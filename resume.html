@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emmanuel Santos | Warehouse Foreman</title>
+
+<link rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: #313030;
+    color: #fff;
+    line-height: 1.7;
+}
+
+/* HEADER */
+header {
+    background: #000;
+    padding: 15px 60px;
+    border-bottom: 1px solid #222;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 30px;
+}
+
+.menu a {
+    color: #bbb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    color: #ff0080;
+}
+
+/* SECTIONS */
+section {
+    padding: 80px 60px;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.hero-text h1 {
+    font-size: 52px;
+    line-height: 1.2;
+}
+
+.hero-text span {
+    color: rgba(51, 116, 246, 0.595);
+}
+
+.hero-text p {
+    font-size: 22px;
+    color: #ccc;
+    margin-top: 15px;
+}
+
+/* PROFILE IMAGE */
+.profile-wrapper {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 6px;
+    background: linear-gradient(135deg, #0574f38b,  #0574f38b);
+    box-shadow: 0 0 45px rgba(0, 149, 255, 0.288);
+}
+
+.profile-wrapper img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #000;
+}
+
+/* HEADINGS */
+h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* CARDS */
+.card {
+    background: #161616;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.card p,
+.card li {
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* SERVICES */
+.service-cards {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background: #161616;
+    padding: 25px;
+    border-radius: 18px;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
+.service-card i {
+    font-size: 40px;
+    color: #ff0080;
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+footer {
+    background: #000;
+    text-align: center;
+    padding: 20px;
+    color: #aaa;
+    border-top: 1px solid #222;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    header {
+        padding: 15px 30px;
+    }
+
+    section {
+        padding: 60px 30px;
+    }
+
+    .hero {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+    }
+
+    .profile-wrapper {
+        margin-top: 40px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="certificates.html">Certificates</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+    <div class="hero-text">
+        <h1>Hi, I'm <span>Emmanuel Jr Santos</span></h1>
+        <p>Warehouse Foreman<br>Logistics & Inventory Specialist</p>
+    </div>
+
+    <div class="profile-wrapper">
+        <img src="profile1.jpg" alt="Profile Photo">
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+<h2>Professional Objective</h2>
+<div class="card">
+<p>
+    Reliable and detail-oriented warehouse professional with 8+ years of experience in industrial logistics and inventory control. 
+  <p>
+
+  </p>  Seeking to contribute operational excellence and customer focused service to Applied Industrial Technologies as a Warehouse Representative.
+</p>
+</div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+<h2>Professional Experience</h2>
+<div class="card">
+<h3>Warehouse Foreman Arabian Pipeline & Services Co. Ltd. (ANABEEB), Saudi Arabia</h3>
+<p><strong>2010 – 2018</strong></p>
+<ul>
+<li>• Oversaw daily warehouse operations for oil & gas and industrial clients</li>
+<li>• Managed shipping and receiving of high-value materials</li>
+<li>• Supervised inventory control, bin location systems, and audits</li>
+<li>• Led warehouse staff while enforcing safety and productivity standards</li>
+<li>• Maintained records and documentation for compliance</li>
+</ul>
+</div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+<h2>Skills & Tools</h2>
+<div class="service-cards">
+
+<div class="service-card">
+<i class="fas fa-warehouse"></i>
+<h3>Warehouse Operations</h3>
+<p>Shipping, receiving, order picking, parts management</p>
+</div>
+
+<div class="service-card">
+<i class="fas fa-boxes"></i>
+<h3>Inventory Systems</h3>
+<p>Bin location tracking, stock audits, documentation</p>
+</div>
+
+<div class="service-card">
+<i class="fas fa-laptop"></i>
+<h3>Software</h3>
+<p>MS Excel, Google Workspace, Oracle JD Edwards, Xero, QuickBooks</p>
+</div>
+
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section>
+<h2>Education & Training</h2>
+<div class="card">
+<p><strong>B.S. Hotel & Restaurant Management</strong><br>
+Las Piñas College (2006 – 2008)</p>
+
+<p><strong>Bookkeeping & Admin Support Training</strong><br>
+QuickBooks & Xero Certification – 2025</p>
+</div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section>
+<h2>Certifications</h2>
+<div class="card">
+<ul>
+<li>• Forklift Operator Certification</li>
+<li>• Xero & QuickBooks ProAdvisor (2025)</li>
+</ul>
+</div>
+</section>
+<br>
+
+    <section class="certificates" id="certificates">    
+        <h2>Certificates of Employment </h2>
+        <img src="" alt="">
+        <div class="certificates-container">
+        
+               <img src="cert ana.png" alt="">
+                    </div>
+                    
+                </div>
+
+<!-- FOOTER -->
+<footer id="contact">
+<p>© Emmanuel Santos | Warehouse & Logistics Professional</p>
+</footer>
+
+</body>
+</html>
